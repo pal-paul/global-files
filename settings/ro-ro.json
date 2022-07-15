@@ -1,0 +1,48 @@
+{
+    "name": "roro",
+    "country_code": "ro",
+    "language_code": "ro",
+    "locale": "ro_RO",
+    "language": "Romanian",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-roro",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "2w",
+            "main_store": true
+        }
+    ],
+    "enable": true,
+    "retention_days": 2150,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": "verifiedBuyer"
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": {
+            "yes": [
+                "Da"
+            ],
+            "no": [
+                "Nu"
+            ]
+        }
+    },
+    "syndications": [
+        {
+            "country_code": "ro",
+            "language_codes": [
+                "ro"
+            ]
+        }
+    ]
+}

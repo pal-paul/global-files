@@ -1,0 +1,48 @@
+{
+    "name": "huhu",
+    "country_code": "hu",
+    "language_code": "hu",
+    "locale": "hu_HU",
+    "language": "Hungarian",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-huhu",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "2w",
+            "main_store": true
+        }
+    ],
+    "enable": true,
+    "retention_days": 2150,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": ""
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": {
+            "yes": [
+                "Igen"
+            ],
+            "no": [
+                "Nem"
+            ]
+        }
+    },
+    "syndications": [
+        {
+            "country_code": "hu",
+            "language_codes": [
+                "hu"
+            ]
+        }
+    ]
+}

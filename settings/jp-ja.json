@@ -1,0 +1,50 @@
+{
+    "name": "jpja",
+    "country_code": "jp",
+    "language_code": "ja",
+    "locale": "ja_JP",
+    "language": "Japanese",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-jpja",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "2w",
+            "main_store": true
+        }
+    ],
+    "enable": true,
+    "retention_days": 2150,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": "verifiedBuyer"
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": {
+            "yes": [
+                "Yes",
+                "はい"
+            ],
+            "no": [
+                "No",
+                "いいえ"
+            ]
+        }
+    },
+    "syndications": [
+        {
+            "country_code": "jp",
+            "language_codes": [
+                "ja"
+            ]
+        }
+    ]
+}

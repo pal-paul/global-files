@@ -1,0 +1,48 @@
+{
+    "name": "test",
+    "country_code": "xx",
+    "language_code": "en",
+    "locale": "en_XX",
+    "language": "English",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-test",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "0d",
+            "main_store": true
+        }
+    ],
+    "enable": true,
+    "retention_days": 0,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": ""
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": {
+            "yes": [
+                "yes"
+            ],
+            "no": [
+                "no"
+            ]
+        }
+    },
+    "syndications": [
+        {
+            "country_code": "xx",
+            "language_codes": [
+                "en"
+            ]
+        }
+    ]
+}

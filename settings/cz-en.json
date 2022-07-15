@@ -1,0 +1,50 @@
+{
+    "name": "czen",
+    "country_code": "cz",
+    "language_code": "en",
+    "locale": "en_CZ",
+    "language": "English",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-czen",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "2w",
+            "main_store": false
+        }
+    ],
+    "enable": true,
+    "retention_days": 2150,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": ""
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": {
+            "yes": [
+                "Ano",
+                "Yes"
+            ],
+            "no": [
+                "Ne",
+                "No"
+            ]
+        }
+    },
+    "syndications": [
+        {
+            "country_code": "cz",
+            "language_codes": [
+                "en"
+            ]
+        }
+    ]
+}

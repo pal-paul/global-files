@@ -1,0 +1,41 @@
+{
+    "name": "befr",
+    "country_code": "be",
+    "language_code": "fr",
+    "locale": "fr_BE",
+    "language": "French",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-befr",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "2w",
+            "main_store": false
+        }
+    ],
+    "enable": true,
+    "retention_days": 2150,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": ""
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": null
+    },
+    "syndications": [
+        {
+            "country_code": "be",
+            "language_codes": [
+                "fr"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "esca",
+    "country_code": "es",
+    "language_code": "ca",
+    "locale": "ca_ES",
+    "language": "Catalan",
+    "vendors": [
+        {
+            "name": "yotpo",
+            "type": "rr",
+            "secret_name": "yotpo-credentials-esca",
+            "content_import": true,
+            "content_export": true,
+            "email_analytics": "2w",
+            "main_store": false
+        }
+    ],
+    "enable": true,
+    "retention_days": 2150,
+    "export": {
+        "enable_ios": true,
+        "enable_bigquery": true,
+        "enable_pulsecx": true
+    },
+    "override": {
+        "display_name_key": ""
+    },
+    "translation": {
+        "enable": true,
+        "languages": null,
+        "recommendation": null
+    },
+    "syndications": [
+        {
+            "country_code": "es",
+            "language_codes": [
+                "ca"
+            ]
+        }
+    ]
+}

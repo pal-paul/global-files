@@ -1,0 +1,67 @@
+stores:
+    ca-en:
+        appkey: fgfgs
+        client_type: ingka
+        queues:
+            - name: core
+              rate_limit_per_sec: 5
+              endpoints:
+                - product
+                - products
+                - orders
+            - name: review
+              rate_limit_per_sec: 5
+              endpoints:
+                - fetch_reviews
+            - name: customer
+              rate_limit_per_sec: 10
+              endpoints:
+                - customer
+            - name: media
+              rate_limit_per_sec: 5
+              endpoints:
+                - media
+                - medias
+                - media-event
+            - name: question
+              rate_limit_per_sec: 5
+              endpoints:
+                - questions
+                - question
+        review_feature_enabled: true
+        media_feature_enabled: true
+        question_feature_enabled: false
+        is_main_appkey: true
+    ca-fr:
+        appkey: ssdfsdfd
+        client_type: ingka
+        queues:
+            - name: core
+              rate_limit_per_sec: 5
+              endpoints:
+                - product
+                - products
+                - orders
+            - name: review
+              rate_limit_per_sec: 5
+              endpoints:
+                - fetch_reviews
+            - name: customer
+              rate_limit_per_sec: 10
+              endpoints:
+                - customer
+            - name: media
+              rate_limit_per_sec: 5
+              endpoints:
+                - media
+                - medias
+                - media-event
+            - name: question
+              rate_limit_per_sec: 5
+              endpoints:
+                - questions
+                - question
+        review_feature_enabled: true
+        media_feature_enabled: true
+        question_feature_enabled: false
+        is_main_appkey: false
